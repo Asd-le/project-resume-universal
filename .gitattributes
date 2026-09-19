@@ -1,0 +1,15 @@
+# 统一换行符，避免跨平台贡献时的整文件 diff
+* text=auto
+
+# Markdown 用 LF
+*.md text eol=lf
+
+# PowerShell 脚本保持 CRLF（Windows 友好）
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary

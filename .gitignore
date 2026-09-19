@@ -1,0 +1,27 @@
+# ---- 分析产物（含生产凭据 / 内网地址 / PII，绝不入库）----
+.project-resume/
+.dsh/
+**/evidence/0*-*.md
+*.evidence.md
+
+# ---- 可能的凭据 / 私钥 ----
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+.env
+.env.*
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+~$*
