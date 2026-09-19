@@ -18,13 +18,13 @@
 
 ```powershell
 # 安装到当前项目的技能目录
-git clone https://github.com/<你>/project-resume-universal.git .dsh\skills\project-resume-universal
+git clone https://github.com/Asd-le/project-resume-universal.git .dsh\skills\project-resume-universal
 ```
 
 **方式 B · clone 到任意位置**，脚本按路径直接调用，无需安装：
 
 ```powershell
-git clone https://github.com/<你>/project-resume-universal.git
+git clone https://github.com/Asd-le/project-resume-universal.git
 cd project-resume-universal
 ```
 
